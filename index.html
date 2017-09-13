@@ -1,1 +1,264 @@
-Hello World
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Volton Free Responsive Template</title>
+        <meta name="description" content="">
+        <!-- 
+    	Volton Template
+    	http://www.templatemo.com/tm-441-volton
+        -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    
+        <div class="responsive-header visible-xs visible-sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="top-section">
+                            <div class="profile-image">
+                                <img src="img/11825938_825644704198320_1875966507420580053_n.jpg" alt="Volton">
+                            </div>
+                            <div class="profile-content">
+                                <h3 class="profile-title">Daniel Galvão de Azevedo</h3>
+                                <p class="profile-description">2016008193</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="toggle-menu"><i class="fa fa-bars"></i></a>
+                <div class="main-navigation responsive-menu">
+                    <ul class="navigation">
+                        <li><a href="#1"><i class="fa fa-globe"></i>1. Conceitos iniciais</a></li>
+	                    <li><a href="#221"><i class="fa fa-check-square"></i>2.2.1 Exercício</a></li>
+	                    <li><a href="#222"><i class="fa fa-check-square"></i>2.2.2 Exercício</a></li>
+	                    <li><a href="#32"><i class="fa fa-square"></i>3.2. Exercício</a></li>
+	                    <li><a href="#"><i class="fa fa-square"></i>4.2. Exercício</a></li>
+	                    <li><a href="#"><i class="fa fa-square"></i>5.2. Exercício</a></li>
+	                    <li><a href="#"><i class="fa fa-square"></i>6.1. Exercício</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="sidebar-menu hidden-xs hidden-sm">
+            <div class="top-section">
+                <div class="profile-image">
+                    <img src="img/11825938_825644704198320_1875966507420580053_n.jpg" alt="Volton">
+                </div>
+                <h3 class="profile-title">Daniel Galvão de Azevedo</h3>
+                <p class="profile-description">2016008193</p>
+            </div> <!-- top-section -->
+            <div class="main-navigation">
+                <ul class="navigation">
+                    <li><a href="#1"><i class="fa fa-globe"></i>1. Conceitos iniciais</a></li>
+                    <li><a href="#221"><i class="fa fa-check-square"></i>2.2.1 Exercício</a></li>
+                    <li><a href="#222"><i class="fa fa-check-square"></i>2.2.2 Exercício</a></li>
+                    <li><a href="#32"><i class="fa fa-square"></i>3.2. Exercício</a></li>
+                    <li><a href="#"><i class="fa fa-square"></i>4.2. Exercício</a></li>
+                    <li><a href="#"><i class="fa fa-square"></i>5.2. Exercício</a></li>
+                    <li><a href="#"><i class="fa fa-square"></i>6.1. Exercício</a></li>
+                </ul>
+            </div> <!-- .main-navigation -->
+            <div class="social-icons">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                </ul>
+            </div> <!-- .social-icons -->
+        </div> <!-- .sidebar-menu -->
+        
+
+        <div class="banner-bg">
+            <div class="banner-overlay"></div>
+            <div class="welcome-text">
+                <h2>Processamento Digital de Sinais</h2>
+                <h5>Página destina à submissão das atividades propostas no componente curricular DCA0445 no semestre 2017.2.</h5>
+            </div>
+        </div>
+
+        <!-- MAIN CONTENT -->
+        <div class="main-content">
+            <div class="fluid-container">
+
+                <div class="content-wrapper">
+                
+                    <!-- ABOUT -->
+                    <div class="page-section" id="1">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="widget-title">Conceitos iniciais </h4>
+                            <p>Comandos para execução dos algoritmos: <br><br>
+                            	$ make (nomeDoArquivo).cpp <br>
+                            	$ ./(nomeDoArquivo) <br><br>
+
+                            	Make file: <br>
+
+                            	<textarea rows="25" cols="90">
+CXX = g++
+CXXFLAGS = -O2 -g -Wall -fmessage-length=0 
+CPPFLAGS = -I/usr/local/Cellar/opencv/2.4.13.2/include
+
+OBJS = Hello.o
+
+LDFLAGS = -L/usr/local/Cellar/opencv/2.4.13.2/lib
+LDLIBS =  -lopencv_core -lopencv_imgproc -lopencv_calib3d -lopencv_video \
+          -lopencv_features2d -lopencv_ml -lopencv_highgui -lopencv_objdetect \
+          -lopencv_contrib -lopencv_legacy -lopencv_gpu
+
+TARGET = Hello
+
+.PHONY: all
+all: $(TARGET)
+$(TARGET):  $(OBJS)
+		$(CXX) $(LDFLAGS) $^ $(LDLIBS) -o $@
+
+.PHONY: clean
+clean:
+		rm -f $(OBJS) $(TARGET)
+                            	</textarea>
+                            </p>
+                            <hr>
+                        </div>
+                    </div> <!-- #about -->
+                    </div>
+                    
+                    <!-- ABOUT -->
+                    <div class="page-section" id="221">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="widget-title">2.2.1</h4>
+                            <p><textarea rows="40" cols="90">#include <iostream>
+#include <opencv2/opencv.hpp>
+
+using namespace cv;
+using namespace std;
+
+int main(int, char**){
+  Mat image;
+  Vec3b val;
+  int x1, y1;
+  int x2, y2;
+
+  cout << "Digite os pontos das extremidades da área desejada" << endl;
+  cin >> x1 >> y1;
+  cin >> x2 >> y2;
+
+  image = imread("biel.png",CV_LOAD_IMAGE_GRAYSCALE);
+  if(!image.data)
+    cout << "nao abriu biel.png" << endl;
+
+  namedWindow("janela",WINDOW_AUTOSIZE);
+
+  for(int i = x1;i < x2; i++){
+    for(int j = y1; j < y2; j++){
+
+      cout << image.at<int>(i,j) << endl;
+      cout << image.at<int>(i,j) * (-1) << endl;
+      cout << endl;
+
+      image.at<int>(i,j) = (image.at<int>(i,j) * (-1));
+    }
+  }
+  
+  imshow("janela", image);  
+  waitKey();
+
+  return 0;
+}</textarea></p>
+                            <hr>
+                        </div>
+                    </div> <!-- #about -->
+                    </div>
+
+                    <!-- ABOUT -->
+                    <div class="page-section" id="222">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="widget-title">2.2.2</h4>
+                            <p>Referencia: https://melosgabriel.github.io/pdi/3.Troca-Regi%C3%B5es/</p>
+                            <br>
+                            <br>
+                            <p><textarea rows="35" cols="90">#include <iostream>
+#include <opencv2/opencv.hpp>
+
+using namespace cv;
+using namespace std;
+
+int main(int argc,char* argv[]){
+  Mat imagem; 
+
+  imagem = imread(argv[1],CV_LOAD_IMAGE_GRAYSCALE);
+  if(!imagem.data){
+    cout<<"Nao abriu a imagem!\n";
+    return -1;
+  }
+
+  Mat result = imagem.clone();
+
+  Rect regions[4] = {Rect(0,0,imagem.cols/2,imagem.rows/2),Rect(imagem.cols/2,0,imagem.cols/2,imagem.rows/2),
+    Rect(0,imagem.rows/2,imagem.cols/2,imagem.rows/2),Rect(imagem.cols/2,imagem.rows/2,imagem.cols/2,imagem.rows/2)};
+
+  int seguencia[4] = {3, 2, 1, 0};
+
+  namedWindow("janela",WINDOW_AUTOSIZE);
+
+  for(int i = 0; i < 4; i++ ){
+    imagem(regions[i]).copyTo(result(regions[seguencia[i]]));
+  }
+
+  imshow("janela",result);
+  waitKey();
+}</textarea>
+                            <hr>
+                        </div>
+                    </div> <!-- #about -->
+                    </div>
+
+                    <!-- ABOUT -->
+                    <div class="page-section" id="32">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="widget-title"></h4>
+                            <p></p>
+                            <hr>
+                        </div>
+                    </div> <!-- #about -->
+                    </div>
+
+                    <div class="row" id="footer">
+                        <div class="col-md-12 text-center">
+                            <p class="copyright-text">Copyright &copy; 2015 Company Name</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/min/plugins.min.js"></script>
+        <script src="js/min/main.min.js"></script>
+
+    </body>
+</html>
