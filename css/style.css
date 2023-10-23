@@ -1,0 +1,83 @@
+@font-face {
+    font-family: myFont;
+    src: url(../assets/font/PixelifySans-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    font-family: myFont;
+    font-size: large;
+}
+
+.mainDiv {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+
+    /* Just for testing */
+    /* background-color: aquamarine; */
+}
+
+.firstPart p {
+    text-align: center;
+    display: block;
+}
+
+.greeting {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.fotoRosto {
+    display: block;
+    margin: auto;
+    width: 150px;
+    border-radius: 100px;
+    border: solid 4px white;
+}
+
+.session-title {
+    font-weight: bolder;
+}
+
+.education-item {
+    display: flex;
+}
+
+.education-item-years {
+    width: 30%;
+    text-align: center;
+}
+
+.education-item-courseInstitution {
+    width: 70%;
+}
+
+.work-item-years {
+    width: 50%;
+    text-align: center;
+}
+
+.work-item-company {
+    width: 50%;
+}
+
+.links-div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
